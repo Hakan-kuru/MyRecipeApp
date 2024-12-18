@@ -9,5 +9,5 @@ import androidx.navigation.NavController
 fun RecipeApp (navController: NavController){
     val recipeViewModel :MainViewModel = viewModel()
     val viewstate by recipeViewModel.categoriesState
-    
+
 }
